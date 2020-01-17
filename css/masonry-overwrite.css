@@ -1,16 +1,19 @@
 .faq-container {
     color: #1b365d;
     max-width: 500px;
-    padding: 20px 40px;
+    padding: 20px 60px;
 }
 
-.faq-container:before {
+.faq-container h5:before {
     content: '';
-    display: inline-block;
-    height: 1em;
-    width: 1em;
-    background-image: url(http://live.hackbeanpot.com/svg/leaf-node.svg);
+    /*display: inline-block;*/
+    height: 35px;
+    width: 35px;
+    background: url(http://live.hackbeanpot.com/svg/leaf-node.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 0.5em;
+    /*margin-right: 0.5em;*/
+    left: 10px;
+    top: 15px;
+    position: absolute;
 }
