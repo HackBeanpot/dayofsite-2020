@@ -3,3 +3,14 @@
     max-width: 500px;
     padding: 20px 40px;
 }
+
+.faq-container:before {
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url(http://live.hackbeanpot.com/svg/leaf-node.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0.5em;
+}
