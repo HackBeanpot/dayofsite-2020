@@ -1,0 +1,50 @@
+.schedule-container {
+    width: 50%;
+}
+
+.day-header {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    background: #1B365D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    border-radius: 13px;
+
+    font-weight: 400;
+    padding: 13px 23px;
+
+    color: white;
+    font-size: 20px;
+}
+
+.day-content {
+    width: auto;
+    height: auto;
+    background: white;
+    overflow: auto;
+    border-radius: 15px;
+
+    padding: 25px 30px;
+}
+
+/* Bolds only the timestamps in each day's event div */
+.day-content *:first-child {
+    font-weight: bold;
+}
+
+/* Not looking quite correct atm */
+.start-hacking {
+    width: 50%;
+    position: absolute;
+    padding: 13px 23px;
+    text-align: center;
+    background: linear-gradient(180deg, #70E0A3 48.96%, rgba(112, 224, 163, 0.69) 82.81%);
+    border-radius: 15px;
+}
+
+.hack-all-day {
+    margin: 7px 0px;
+    font-style: italic;
+}

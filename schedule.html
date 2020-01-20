@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/schedule.css">
 </head>
 
 <body>
@@ -62,89 +63,81 @@
       </div>
     </nav>
     <h1>Schedule</h1>
-    <table class="table">
-      <thead>
-        <h2>Friday, February 7th</h2>
-      </thead>
-      <tbody>
-        <tr>
-          <td>5:45 pm</td>
-          <td>Check-in opens for orientation attendees</td>
-        </tr>
-        <tr>
-          <td>6:00 pm</td>
-          <td>First-time hacker orientation</td>
-        </tr>
-        <tr>
-          <td>6:30 pm</td>
-          <td>Dinner and general check-in</td>
-        </tr>
-        <tr>
-          <td>7:30 pm</td>
-          <td>Opening ceremony 🎉</td>
-        </tr>
-        <tr>
-          <td>8:00 pm</td>
-          <td>Team formation and ideation sessions</td>
-        </tr>
-        <tr>
-          <td>8:00 pm</td>
-          <td>Start hacking!!</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="schedule-container">
 
-    <table class="table">
-      <thead>
-        <h2>Saturday, February 8th</h2>
-        <h4>Hacking all day</h4>
-      </thead>
-      <tbody>
-        <tr>
-          <td>9:00 am</td>
-          <td>Breakfast</td>
-        </tr>
-        <tr>
-          <td>12:30 pm</td>
-          <td>Lunch</td>
-        </tr>
-        <tr>
-          <td>6:30 pm</td>
-          <td>Dinner</td>
-        </tr>
-      </tbody>
-    </table>
+      <h1 class="day-header">Friday, February 7th</h1>
+      <div class="container day-content">
+        <div></div> <!-- Fixes weird CSS :first-child fuckery -->
+        <div class="row">
+          <div class="col-3">5:45 pm</div>
+          <div class="col-9">Check-in opens for orientation attendees</div>
+        </div>
+        <div class="row">
+          <div class="col-3">6:00 pm</div>
+          <div class="col-9">First-time hacker orientation</div>
+        </div>
+        <div class="row">
+          <div class="col-3">6:30 pm</div>
+          <div class="col-9">Dinner and general check-in</div>
+        </div>
+        <div class="row">
+          <div class="col-3">7:30 pm</div>
+          <div class="col-9"><b>Opening ceremony 🎉</b></div>
+        </div>
+        <div class="row">
+          <div class="col-3">8:00 pm</div>
+          <div class="col-9">Team formation and ideation sessions</div>
+        </div>
+        <div class="start-hacking">Start hacking! TODO: Make this look right</div>
+      </div>
 
-    <table class="table">
-      <thead>
-        <h2>Sunday, February 9th</h2>
-      </thead>
-      <tbody>
-        <tr>
-          <td>9:00 am</td>
-          <td>Breakfast</td>
-        </tr>
-        <tr>
-          <td>10:00 am</td>
-          <td>Project submissions due ⏱️</td>
-        </tr>
-        <tr>
-          <td>12:30 pm</td>
-          <td>Lunch</td>
-        </tr>
-        <tr>
-          <td>1:00 pm</td>
-          <td>Project demos</td>
-        </tr>
-        <tr>
-          <td>3:00 pm</td>
-          <td>Closing ceremony and awards 🏆</td>
-        </tr>
-        <tr>
-          <td>3:30 pm</td>
-          <td>Sleep!</td>
-        </tr>
-      </tbody>
-    </table>
+
+      <h1 class="day-header">Saturday, February 8th</h1>
+      <div class="container day-content">
+        <div class="hack-all-day">Hacking all day</div>
+        <div class="row">
+          <div class="col-3">9:00 am</div>
+          <div class="col-9">Breakfast</div>
+        </div>
+        <div class="row">
+          <div class="col-3">12:30 pm</div>
+          <div class="col-9">Lunch</div>
+        </div>
+        <div class="row">
+          <div class="col-3">6:30 pm</div>
+          <div class="col-9">Dinner</div>
+        </div>
+      </div>
+
+
+      <h1 class="day-header">Sunday, February 9th</h1>
+      <div class="container day-content">
+        <div></div> <!-- Fixes CSS :first-child fuckery -->
+        <div class="row">
+          <div class="col-3">9:00 am</div>
+          <div class="col-9">Breakfast</div>
+        </div>
+        <div class="row">
+          <div class="col-3">10:00 am</div>
+          <div class="col-9"><b>Project submissions due ⏱️</b></div>
+        </div>
+        <div class="row">
+          <div class="col-3">12:30 pm</div>
+          <div class="col-9">Lunch</div>
+        </div>
+        <div class="row">
+          <div class="col-3">1:00 pm</div>
+          <div class="col-9">Project demos</div>
+        </div>
+        <div class="row">
+          <div class="col-3">3:00 pm</div>
+          <div class="col-9"><b>Closing ceremony and awards 🏆</b></div>
+        </div>
+        <div class="row">
+          <div class="col-3">3:30 pm</div>
+          <div class="col-9">Sleep!</div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
