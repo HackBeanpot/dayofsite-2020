@@ -2,5 +2,45 @@
     text-transform: uppercase;
     color: rgba(27, 54, 93, 0.5);
     margin-bottom: 0;
+    font-size: 20px;
     font-weight: 700;
+}
+
+.index-subtext {
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.time-left {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.info-container > * {
+    margin-top: 15px;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.button-container * {
+    margin-right: 30px;
+}
+
+.cta-button {
+    color: #1B365D;
+    padding: 10px 25px;
+    border: 2px solid #1B365D;
+    display: inline-block;
+    border-radius: 30px;
+    font-weight: 700;
+
+    transition: all 0.3s ease 0s;
+}
+.cta-button:hover {
+    color: #edffb5 !important;
+    background: #1B365D;
+    transition: all 0.3s ease 0s;
 }
