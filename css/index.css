@@ -44,3 +44,12 @@
     background: #1B365D;
     transition: all 0.3s ease 0s;
 }
+
+.vine-svg {
+    position: relative;
+    background-repeat: no-repeat;
+    left: 620px;
+    bottom: 690px;
+    height: 625px;
+    z-index: -100;
+}

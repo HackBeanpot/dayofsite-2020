@@ -31,3 +31,13 @@ h5 {
         /*max-width: 1350px;*/
     /*}*/
 /*}*/
+
+.pattern-svg {
+    position: relative;
+    background-repeat: no-repeat;
+    left: 0px;
+    /*bottom: 1475px;*/
+    top: -1500px;
+    width: 100%;
+    z-index: -100;
+}
