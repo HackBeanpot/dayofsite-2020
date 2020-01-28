@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mentors.css">
 </head>
 
 <body>
@@ -68,31 +69,42 @@
   <div class="container mb-5">
     <h1>Mentors</h1>
     <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 500 }'>
-      <div class="grid-item faq-container">
-        <img src="favicon.png" class="float-left">
-        <h2>FirstName LastName</h2>
-        <h4>Company Name</h4>
-        <div class="mentor-infobox">
-          <h5>Shift info:</h5>
-          <p>7pm - 9pm Fri</p>
-          <p>7pm - 9pm Fri</p>
-        </div>
-        <div class="mentor-infobox">
-          <h5>Expertise:</h5>
-          <p>React</p>
-          <p>Xcode</p>
-        </div>
 
-        <div class="contact-info">
-          <p>(617) BEE-BOOP</p>
-          <p>hackbeanbot@hackbeanpot.com</p>
-        </div>
+      <!--Rucha test mentor-->
+      <div class="grid-item mentor-item">
+        <img src="img/rucha-headshot.png" class="float-left mentor-headshot">
+        <div class="mentor-big-infobox container">
+          <div class="row">
+            <div class="col-12 mentor-name-header">FirstName LastName</div>
+          </div>
+          <div class="row">
+            <div class="col-12 mentor-company-header">Company Name</div>
+          </div>
 
+          <div class="row">
+            <div class="mentor-infobox col-6">
+              <div class="infobox-header">Shift info:</div>
+              <div>7pm - 9pm Fri</div>
+              <div>7pm - 9pm Fri</div>
+            </div>
+            <div class="mentor-infobox col-6">
+              <div class="infobox-header">Expertise:</div>
+              <div>React</div>
+              <div>Xcode</div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="contact-info col-12">
+              <h5 class="infobox-header">Contact info:</h5>
+              <div>(617) BEE-BOOP</div>
+              <div>hackbeanbot@hackbeanpot.com</div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="grid-item faq-container">
-        I am a mentor
-      </div>
+      <!-- More mentor divs go here. Let's grey them out if they're off-shift -->
     </div>
   </div>
 </div>

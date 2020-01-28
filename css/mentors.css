@@ -1,0 +1,30 @@
+.mentor-item {
+    width: 550px;
+}
+
+.mentor-headshot {
+    border-radius: 12px;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.mentor-name-header {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.mentor-company-header {
+    font-size: 18px;
+}
+
+.infobox-header {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    /*position: relative;*/
+    /*margin: 10px 0 10px 0;*/
+    /*display: block;*/
+
+    text-transform: uppercase;
+    color: rgba(27, 54, 93, 0.5);
+    font-weight: 700;
+}
