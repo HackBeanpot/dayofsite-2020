@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/mentors.css">
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 </head>
 
 <body>
@@ -68,7 +69,7 @@
 
   <div class="container mb-5">
     <h1>Mentors</h1>
-    <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 500 }'>
+    <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 575, "gutter": 10 }'>
 
       <!--Rucha test mentor-->
       <div class="grid-item mentor-item">
@@ -77,11 +78,11 @@
           <div class="row">
             <div class="col-12 mentor-name-header">FirstName LastName</div>
           </div>
-          <div class="row">
+          <div class="row mb-2">
             <div class="col-12 mentor-company-header">Company Name</div>
           </div>
 
-          <div class="row">
+          <div class="row mb-3">
             <div class="mentor-infobox col-6">
               <div class="infobox-header">Shift info:</div>
               <div>7pm - 9pm Fri</div>
@@ -96,7 +97,41 @@
 
           <div class="row">
             <div class="contact-info col-12">
-              <h5 class="infobox-header">Contact info:</h5>
+              <div class="infobox-header">Contact info:</div>
+              <div>(617) BEE-BOOP</div>
+              <div>hackbeanbot@hackbeanpot.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Rucha test mentor-->
+      <div class="grid-item mentor-item">
+        <img src="img/rucha-headshot.png" class="float-left mentor-headshot">
+        <div class="mentor-big-infobox container">
+          <div class="row">
+            <div class="col-12 mentor-name-header">FirstName LastName</div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-12 mentor-company-header">Company Name</div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="mentor-infobox col-6">
+              <div class="infobox-header">Shift info:</div>
+              <div>7pm - 9pm Fri</div>
+              <div>7pm - 9pm Fri</div>
+            </div>
+            <div class="mentor-infobox col-6">
+              <div class="infobox-header">Expertise:</div>
+              <div>React</div>
+              <div>Xcode</div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="contact-info col-12">
+              <div class="infobox-header">Contact info:</div>
               <div>(617) BEE-BOOP</div>
               <div>hackbeanbot@hackbeanpot.com</div>
             </div>

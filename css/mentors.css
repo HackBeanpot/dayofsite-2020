@@ -1,5 +1,7 @@
 .mentor-item {
-    width: 550px;
+    width: 575px;
+    /*height: 250px;*/
+    margin-bottom: 20px;
 }
 
 .mentor-headshot {
@@ -15,14 +17,12 @@
 
 .mentor-company-header {
     font-size: 18px;
+    font-weight: 700;
 }
 
 .infobox-header {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 15px;
-    /*position: relative;*/
-    /*margin: 10px 0 10px 0;*/
-    /*display: block;*/
 
     text-transform: uppercase;
     color: rgba(27, 54, 93, 0.5);
