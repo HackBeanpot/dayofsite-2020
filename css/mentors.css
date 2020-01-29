@@ -1,6 +1,5 @@
 .mentor-item {
     width: 500px;
-    /*height: 250px;*/
     margin-bottom: 50px;
 }
 
@@ -9,6 +8,7 @@
     border-width: 5px;
     border-style: solid;
     width: 150px;
+    height: 200px;
 }
 
 .mentor-name-header {
