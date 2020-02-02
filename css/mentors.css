@@ -29,3 +29,7 @@
     color: rgba(27, 54, 93, 0.5);
     font-weight: 700;
 }
+
+.inactive {
+    filter: grayscale(100%);
+}
