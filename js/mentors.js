@@ -44,6 +44,65 @@ window.onload = () => {
     return (now > sunday8am && now < sunday10am);
   }
 
-  // console.log(fri9ToMidnight());
-  // TODO: Call these functions to grey out mentors based on their shifts.
+  // Now, call these functions to grey out mentors based on their shifts.
+
+  var mentors = document.getElementsByClassName("mentor-item");
+  for (const mentor of mentors) {
+    mentor.style.opacity = "0.5";
+  }
+
+  if (fri9ToMidnight()) {
+    document.getElementById("roderic").style.opacity = "1.0";
+    document.getElementById("vanessa").style.opacity = "1.0";
+    document.getElementById("bea").style.opacity = "1.0";
+    document.getElementById("michael").style.opacity = "1.0";
+    document.getElementById("alec").style.opacity = "1.0";
+    document.getElementById("ryan").style.opacity = "1.0";
+    document.getElementById("guy").style.opacity = "1.0";
+  }
+
+  if (sat10To2()) {
+    document.getElementById("christina").style.opacity = "1.0";
+    document.getElementById("peter").style.opacity = "1.0";
+    document.getElementById("vanessa").style.opacity = "1.0";
+    document.getElementById("scott").style.opacity = "1.0";
+    document.getElementById("michael").style.opacity = "1.0";
+    document.getElementById("ryan").style.opacity = "1.0";
+    document.getElementById("guy").style.opacity = "1.0";
+  }
+
+  if (sat2To6()) {
+    document.getElementById("jacob").style.opacity = "1.0";
+    document.getElementById("christina").style.opacity = "1.0";
+    document.getElementById("vanessa").style.opacity = "1.0";
+    document.getElementById("scott").style.opacity = "1.0";
+    document.getElementById("michael").style.opacity = "1.0";
+    document.getElementById("ryan").style.opacity = "1.0";
+    document.getElementById("guy").style.opacity = "1.0";
+    document.getElementById("ilya").style.opacity = "1.0";
+  }
+
+  if (sat6To9()) {
+    document.getElementById("jacob").style.opacity = "1.0";
+    document.getElementById("roderic").style.opacity = "1.0";
+    document.getElementById("scott").style.opacity = "1.0";
+    document.getElementById("michael").style.opacity = "1.0";
+    document.getElementById("guy").style.opacity = "1.0";
+    document.getElementById("ilya").style.opacity = "1.0";
+  }
+
+  if (sat9ToMidnight()) {
+    document.getElementById("michael").style.opacity = "1.0";
+    document.getElementById("guy").style.opacity = "1.0";
+    document.getElementById("ilya").style.opacity = "1.0";
+  }
+
+  if (sun8To10()) {
+    document.getElementById("roderic").style.opacity = "1.0";
+    document.getElementById("bea").style.opacity = "1.0";
+    document.getElementById("michael").style.opacity = "1.0";
+    document.getElementById("alec").style.opacity = "1.0";
+    document.getElementById("guy").style.opacity = "1.0";
+    document.getElementById("ilya").style.opacity = "1.0";
+  }
 }
