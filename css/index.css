@@ -88,4 +88,8 @@
     margin: 8px 0;
     font-size: 20px;
   }
+
+  .vine-svg {
+    display: none;
+  }
 }
