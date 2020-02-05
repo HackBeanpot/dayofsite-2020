@@ -40,8 +40,13 @@ h5 {
   z-index: -1;
 }
 
-.maps-page {
+.maps-page,
+.home-page {
   max-height: 2000px;
   overflow-y: hidden;
   position: relative;
+}
+
+.home-page {
+  max-height: 850px;
 }
