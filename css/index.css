@@ -92,4 +92,13 @@
   .vine-svg {
     display: none;
   }
+
+  /* Challenges page */
+  .challenges-container p {
+    font-size: 18px;
+  }
+
+  .challenges-container li {
+    word-break: break-all;
+  }
 }

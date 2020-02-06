@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #edffb5; /* Light theme */
   font-family: 'Nunito Sans', sans-serif;
@@ -34,7 +38,19 @@ h5 {
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
   .pattern-svg {
     top: 200px;
+  }
+
+  .container {
+    width: auto;
   }
 }
