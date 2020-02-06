@@ -59,6 +59,8 @@ window.onload = () => {
     document.getElementById("alec").style.opacity = "1.0";
     document.getElementById("ryan").style.opacity = "1.0";
     document.getElementById("guy").style.opacity = "1.0";
+    document.getElementById("ean").style.opacity = "1.0";
+    document.getElementById("matthew").style.opacity = "1.0";
   }
 
   if (sat10To2()) {
@@ -69,6 +71,7 @@ window.onload = () => {
     document.getElementById("michael").style.opacity = "1.0";
     document.getElementById("ryan").style.opacity = "1.0";
     document.getElementById("guy").style.opacity = "1.0";
+    document.getElementById("david").style.opacity = "1.0";
   }
 
   if (sat2To6()) {
@@ -80,6 +83,7 @@ window.onload = () => {
     document.getElementById("ryan").style.opacity = "1.0";
     document.getElementById("guy").style.opacity = "1.0";
     document.getElementById("ilya").style.opacity = "1.0";
+    document.getElementById("ean").style.opacity = "1.0";
   }
 
   if (sat6To9()) {
@@ -95,6 +99,7 @@ window.onload = () => {
     document.getElementById("michael").style.opacity = "1.0";
     document.getElementById("guy").style.opacity = "1.0";
     document.getElementById("ilya").style.opacity = "1.0";
+    document.getElementById("robby").style.opacity = "1.0";
   }
 
   if (sun8To10()) {
