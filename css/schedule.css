@@ -35,16 +35,19 @@
 }
 
 /* Not looking quite correct atm */
-.start-hacking {
-    width: 50%;
-    position: absolute;
-    padding: 13px 23px;
-    text-align: center;
-    background: linear-gradient(180deg, #70E0A3 48.96%, rgba(112, 224, 163, 0.69) 82.81%);
+.time-highlight {
+    color: #F0FDA3;
+    /*width: 50%;*/
+    /*position: absolute;*/
+    text-align: left;
+    padding: 10px 20px;
+    /*text-align: center;*/
+    background: #439A6B;
     border-radius: 15px;
+    display: inline-block;
 }
 
-.hack-all-day {
-    margin: 7px 0px;
+.event-subtext {
+    /*margin: 7px 0px;*/
     font-style: italic;
 }
