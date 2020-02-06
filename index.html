@@ -17,17 +17,19 @@
 </head>
 
 <body>
+  <div class="home-page">
+  <img src="svg/leaf-pattern1.svg" class="pattern-svg">
   <div class="big-container container-fluid">
     <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#">
         <img src="img/logo-notext.png" alt="HBP Logo" height="48px" width="48px">
       </a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon fas fa-bars fa-1x"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <!-- Other livesite page links -->
+
+      <div class="collapse navbar-collapse" id="nav-content">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="schedule.html">Schedule</a>
@@ -45,31 +47,31 @@
             <a class="nav-link" href="faqs.html">FAQs</a>
           </li>
         </ul>
-
-        <!-- Social media links -->
-        <ul class="navbar-nav mr-0">
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.facebook.com/hackbeanpot/" target="_blank">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://twitter.com/HackBeanpot/" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.instagram.com/hackbeanpot/" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
       </div>
+
+      <!-- Social media links -->
+      <ul class="social-media navbar-nav mr-0">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/hackbeanpot/" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/HackBeanpot/" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/hackbeanpot/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
     </nav>
 
     <div class="container">
       <div class="row">
-        <div class="col-8">
+        <div class="col-md-8">
 
           <h1 class="time-left">Hacking time remaining:</h1>
 
@@ -96,14 +98,15 @@
             </div>
           </div>
 
-          <div class="button-container d-flex">
+          <div class="button-container">
             <a class="cta-button" href="https://hackbeanpot-2020.devpost.com/">Submit a Project</a>
             <a class="cta-button" href="mentors.html">Contact a Mentor</a>
+            <a class="cta-button" href="http://tiny.cc/HBPresources">Beginner Resource Guide</a>
           </div>
 
         </div>
 
-        <div class="col-4">
+        <div class="col-md-4">
           <a class="twitter-timeline" data-lang="en" data-height="720" data-link-color="#19CF86" href="https://twitter.com/HackBeanpot?ref_src=twsrc%5Etfw">Tweets by HackBeanpot</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       </div>
@@ -111,8 +114,7 @@
 
     <img src="svg/vine.svg" class="vine-svg">
   </div>
-
-  <img src="svg/leaf-pattern1.svg" class="pattern-svg">
+  </div>
 
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="js/main.js"></script>

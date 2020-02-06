@@ -1,56 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:500&display=swap');
 
 #clock {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 
-#clock * {
-    display: inline-block;
+#clock h1 {
+  display: inline-block;
 
-    font-family: 'Roboto Mono', sans-serif;
-    font-size: 90px;
-    font-weight: 500;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 90px;
+  font-weight: 500;
 }
 
-.hours:after {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 27px;
-    content: 'Hours';
-    text-align: center;
-    position: relative;
-    margin: 10px 0 10px 0;
-    display: block;
+.hours:after,
+.minutes:after,
+.seconds:after {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 27px;
+  content: 'Hours';
+  text-align: center;
+  position: relative;
+  margin: 10px 0 10px 0;
+  display: block;
 
-    text-transform: uppercase;
-    color: rgba(27, 54, 93, 0.5);
-    font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(27, 54, 93, 0.5);
+  font-weight: 700;
 }
 
 .minutes:after {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 27px;
-    content: 'Minutes';
-    text-align: center;
-    position: relative;
-    margin: 10px 0 10px 0;
-    display: block;
-
-    text-transform: uppercase;
-    color: rgba(27, 54, 93, 0.5);
-    font-weight: 700;
+  content: 'Minutes';
 }
 
 .seconds:after {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 27px;
-    content: 'Seconds';
-    text-align: center;
-    position: relative;
-    margin: 10px 0 10px 0;
-    display: block;
+  content: 'Seconds';
+}
 
-    text-transform: uppercase;
-    color: rgba(27, 54, 93, 0.5);
-    font-weight: 700;
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .hours:after,
+  .minutes:after,
+  .seconds:after {
+    font-size: 16px;
+  }
+
+  #clock h1 {
+    font-size: 64px;
+  }
 }
