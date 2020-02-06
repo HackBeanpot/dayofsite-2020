@@ -69,6 +69,19 @@
   z-index: -100;
 }
 
+.navbar-toggler {
+  border: 1px solid #1b365d;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.navbar-toggler-icon {
+  color: #1b365d;
+  font-size: 24px;
+  height: 24px;
+  text-align: center;
+}
+
 /* Mobile */
 @media only screen and (max-width: 600px) {
   .home-page {
@@ -100,5 +113,9 @@
 
   .challenges-container li {
     word-break: break-all;
+  }
+
+  .social-media {
+    display: none;
   }
 }
