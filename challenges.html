@@ -1,119 +1,165 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HBP Challenges</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title>HBP Challenges</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.png" type="image/png" />
 
-  <link rel="icon" href="favicon.png" type="image/png">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/index.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/main.js"></script>
-</head>
+  <body>
+    <img src="svg/leaf-pattern1.svg" class="pattern-svg" />
+    <div class="big-container container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="img/logo-notext.png"
+            alt="HBP Logo"
+            height="48px"
+            width="48px"
+          />
+        </a>
 
-<body>
-  <img src="svg/leaf-pattern1.svg" class="pattern-svg">
-  <div class="big-container container-fluid">
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html">
-        <img src="img/logo-notext.png" alt="HBP Logo" height="48px" width="48px">
-      </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#nav-content"
+          aria-controls="nav-content"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+          id="nav-toggle"
+        >
+          <span class="navbar-toggler-icon fas fa-bars fa-1x"></span>
+        </button>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="true" aria-label="Toggle navigation" id="nav-toggle">
-        <span class="navbar-toggler-icon fas fa-bars fa-1x"></span>
-      </button>
+        <div class="collapse navbar-collapse" id="nav-content">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Challenges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="maps.html">Maps</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mentors.html">Mentors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQs</a>
+            </li>
+          </ul>
 
-      <div class="collapse navbar-collapse" id="nav-content">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="schedule.html">Schedule</a>
+          <!-- Social media links -->
+          <ul class="social-media navbar-nav mr-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.facebook.com/hackbeanpot/"
+                target="_blank"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://twitter.com/HackBeanpot/"
+                target="_blank"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/hackbeanpot/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container mb-4 challenges-container">
+        <h1>Challenges</h1>
+        <p>
+          <i>
+            These challenges were inspired by this year’s theme, Sprout. We hope
+            that during your time at HackBeanpot you will help us embody the
+            sprout theme by building new relationships, trying new things, and
+            helping us be sustainable. The following are two challenges based on
+            our Sprout track that you can use as inspiration for your projects.
+          </i>
+        </p>
+
+        <br /><br />
+
+        <h3>Best Sustainability Hack</h3>
+        <h4>Sponsored by HackBeanpot</h4>
+        <p>
+          Sustainability has been a trendy term in the media these days. It is a
+          broad term - ranging from fashion, to food, to our everyday habits. We
+          all know that our planet needs our help - and there are so many ways
+          we can utilize technology to help! With all this in mind, we challenge
+          you to use your hacking skills to build something that will make
+          mother earth proud 🌿
+        </p>
+
+        <br /><br />
+
+        <h3>Best Hack for the Boston Community</h3>
+        <h4>Sponsored by HackBeanpot</h4>
+        <p>
+          Beantown has always had a special place in HackBeanpot’s heart. As
+          part of the Sprout vision, we challenge our attendees to build
+          something that will have an impact on the community around them.
+          Whether that be helping people navigate the MBTA or find food donation
+          centers, here are some links to help you get started:
+        </p>
+        <ul>
+          <li>
+            <a href="https://data.boston.gov/">https://data.boston.gov/</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Challenges</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="maps.html">Maps</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mentors.html">Mentors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faqs.html">FAQs</a>
+          <li>
+            <a
+              href="https://www.northeastern.edu/csshresearch/bostonarearesearchinitiative/boston-data-portal/"
+              >https://www.northeastern.edu/csshresearch/bostonarearesearchinitiative/boston-data-portal/</a
+            >
           </li>
         </ul>
+        <p>
+          Get as crazy and creative as you want!
+        </p>
 
-        <!-- Social media links -->
-        <ul class="social-media navbar-nav mr-0">
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.facebook.com/hackbeanpot/" target="_blank">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://twitter.com/HackBeanpot/" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.instagram.com/hackbeanpot/" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
+        <br /><br />
+
+        <h3>$PRIZE_NAME</h3>
+        <h4>Sponsored by $COMPANY_NAME</h4>
+        <p>
+          Lorem ipsum dolor sit amet ...
+        </p>
       </div>
-    </nav>
-    <div class="container mb-4 challenges-container">
-      <h1>Challenges</h1>
-      <p><i>
-        These challenges were inspired by this year’s theme, Sprout. We hope that during your time
-        at HackBeanpot you will help us embody the sprout theme by building new relationships, trying
-        new things, and helping us be sustainable. The following are two challenges based on our
-        Sprout track that you can use as inspiration for your projects.
-      </i></p>
-
-      <br><br>
-
-      <h3>Best Sustainability Hack</h3>
-      <h4>Sponsored by HackBeanpot</h4>
-      <p>
-        Sustainability has been a trendy term in the media these days. It is a broad term - ranging
-        from fashion, to food, to our everyday habits. We all know that our planet needs our help -
-        and there are so many ways we can utilize technology to help! With all this in mind, we
-        challenge you to use your hacking skills to build something that will make mother earth
-        proud 🌿
-      </p>
-
-      <br><br>
-
-      <h3>Best Hack for the Boston Community</h3>
-      <h4>Sponsored by HackBeanpot</h4>
-      <p>
-        Beantown has always had a special place in HackBeanpot’s heart. As part of the Sprout
-        vision, we challenge our attendees to build something that will have an impact on the
-        community around them. Whether that be helping people navigate the MBTA or find food
-        donation centers, here are some links to help you get started:
-      </p>
-      <ul>
-        <li><a href="https://data.boston.gov/">https://data.boston.gov/</a></li>
-        <li><a href="https://www.northeastern.edu/csshresearch/bostonarearesearchinitiative/boston-data-portal/">https://www.northeastern.edu/csshresearch/bostonarearesearchinitiative/boston-data-portal/</a></li>
-      </ul>
-      <p>
-        Get as crazy and creative as you want!
-      </p>
-
-      <br><br>
-
-      <h3>$PRIZE_NAME</h3>
-      <h4>Sponsored by $COMPANY_NAME</h4>
-      <p>
-        Lorem ipsum dolor sit amet ...
-      </p>
     </div>
-  </div>
-</body>
+  </body>
+</html>
