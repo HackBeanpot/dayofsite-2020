@@ -1,53 +1,58 @@
 .schedule-container {
-    width: 50%;
+  width: 100%;
 }
 
 .day-header {
-    display: inline-block;
-    position: relative;
-    top: 20px;
-    left: 15px;
-    background: #1B365D;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    border-radius: 13px;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: 15px;
+  background: #1B365D;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-radius: 13px;
 
-    font-weight: 400;
-    padding: 13px 23px;
+  font-weight: 400;
+  padding: 13px 23px;
 
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 .day-content {
-    width: auto;
-    height: auto;
-    background: white;
-    overflow: auto;
-    border-radius: 15px;
+  width: auto;
+  height: auto;
+  background: white;
+  overflow: auto;
+  border-radius: 15px;
 
-    padding: 25px 30px;
+  padding: 25px 30px;
 }
 
 /* Bolds only the timestamps in each day's event div */
 .day-content *:first-child {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* Not looking quite correct atm */
 .time-highlight {
-    color: #F0FDA3;
-    /*width: 50%;*/
-    /*position: absolute;*/
-    text-align: left;
-    padding: 10px 20px;
-    /*text-align: center;*/
-    background: #439A6B;
-    border-radius: 15px;
-    display: inline-block;
+  color: #F0FDA3;
+  text-align: left;
+  padding: 10px 20px 10px 32px;
+  background: #439A6B;
+  border-radius: 0 15px 15px 0;
+  display: inline-block;
+  margin: 0 0 16px -32px;
 }
 
 .event-subtext {
-    /*margin: 7px 0px;*/
-    font-style: italic;
+  font-style: italic;
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .day-content {
+      font-size: 16px;
+  }
 }
