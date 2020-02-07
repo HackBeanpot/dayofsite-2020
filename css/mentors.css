@@ -19,10 +19,11 @@
 .mentor-company-header {
   font-size: 18px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .infobox-header {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 15px;
 
   text-transform: uppercase;
