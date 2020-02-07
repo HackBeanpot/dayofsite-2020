@@ -61,6 +61,7 @@ window.onload = () => {
     document.getElementById("guy").style.opacity = "1.0";
     document.getElementById("ean").style.opacity = "1.0";
     document.getElementById("matthew").style.opacity = "1.0";
+    document.getElementById("evan").style.opacity = "1.0";
   }
 
   if (sat10To2()) {
@@ -72,6 +73,7 @@ window.onload = () => {
     document.getElementById("ryan").style.opacity = "1.0";
     document.getElementById("guy").style.opacity = "1.0";
     document.getElementById("david").style.opacity = "1.0";
+    document.getElementById("tom").style.opacity = "1.0";
   }
 
   if (sat2To6()) {
@@ -84,6 +86,7 @@ window.onload = () => {
     document.getElementById("guy").style.opacity = "1.0";
     document.getElementById("ilya").style.opacity = "1.0";
     document.getElementById("ean").style.opacity = "1.0";
+    document.getElementById("evan").style.opacity = "1.0";
   }
 
   if (sat6To9()) {
