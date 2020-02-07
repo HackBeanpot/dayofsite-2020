@@ -38,6 +38,29 @@ a:hover {
   color: #439a6b;
 }
 
+nav {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: #1b365d;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #1b365d;
+  text-decoration: underline;
+}
+
+nav .navbar-toggler {
+  border: none;
+}
+
+.nav-link i:hover,
+nav .navbar-toggler:hover {
+  opacity: 0.6;
+}
+
 .pattern-svg {
   position: absolute;
   left: 0;
