@@ -60,6 +60,7 @@ window.onload = () => {
     document.getElementById("john").style.opacity = "1.0";
     document.getElementById("ean").style.opacity = "1.0";
     document.getElementById("matthew").style.opacity = "1.0";
+    document.getElementById("evan").style.opacity = "1.0";
     document.getElementById("aaron").style.opacity = "1.0";
     document.getElementById("proneel").style.opacity = "1.0";
   }
@@ -69,6 +70,9 @@ window.onload = () => {
     document.getElementById("peter-templin").style.opacity = "1.0";
     document.getElementById("scott").style.opacity = "1.0";
     document.getElementById("ryan").style.opacity = "1.0";
+    document.getElementById("guy").style.opacity = "1.0";
+    document.getElementById("david").style.opacity = "1.0";
+    document.getElementById("tom").style.opacity = "1.0";
     document.getElementById("john").style.opacity = "1.0";
     document.getElementById("william").style.opacity = "1.0";
   }
@@ -80,6 +84,7 @@ window.onload = () => {
     document.getElementById("peter-somers").style.opacity = "1.0";
     document.getElementById("patrick").style.opacity = "1.0";
     document.getElementById("ean").style.opacity = "1.0";
+    document.getElementById("evan").style.opacity = "1.0";
   }
 
   if (sat6To9()) {
