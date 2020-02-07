@@ -10,7 +10,6 @@
   max-height: 850px;
 }
 
-
 /* Components */
 .index-header {
   text-transform: uppercase;
@@ -86,6 +85,10 @@
 @media only screen and (max-width: 600px) {
   .home-page {
     max-height: 1550px;
+  }
+
+  .maps-page {
+    overflow-y: initial;
   }
 
   .index-subtext {

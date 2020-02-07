@@ -53,4 +53,10 @@ h5 {
   .container {
     width: auto;
   }
+
+  .mobile-nav-content {
+    text-align: right;
+    padding-right: 16px;
+    font-size: 16px;
+  }
 }
