@@ -52,62 +52,58 @@ window.onload = () => {
   }
 
   if (fri9ToMidnight()) {
-    document.getElementById("roderic").style.opacity = "1.0";
     document.getElementById("vanessa").style.opacity = "1.0";
     document.getElementById("bea").style.opacity = "1.0";
-    document.getElementById("michael").style.opacity = "1.0";
-    document.getElementById("alec").style.opacity = "1.0";
     document.getElementById("ryan").style.opacity = "1.0";
     document.getElementById("guy").style.opacity = "1.0";
+    document.getElementById("alec").style.opacity = "1.0";
+    document.getElementById("john").style.opacity = "1.0";
     document.getElementById("ean").style.opacity = "1.0";
     document.getElementById("matthew").style.opacity = "1.0";
+    document.getElementById("aaron").style.opacity = "1.0";
+    document.getElementById("proneel").style.opacity = "1.0";
   }
 
   if (sat10To2()) {
     document.getElementById("christina").style.opacity = "1.0";
-    document.getElementById("peter").style.opacity = "1.0";
-    document.getElementById("vanessa").style.opacity = "1.0";
+    document.getElementById("peter-templin").style.opacity = "1.0";
     document.getElementById("scott").style.opacity = "1.0";
-    document.getElementById("michael").style.opacity = "1.0";
     document.getElementById("ryan").style.opacity = "1.0";
-    document.getElementById("guy").style.opacity = "1.0";
-    document.getElementById("david").style.opacity = "1.0";
+    document.getElementById("john").style.opacity = "1.0";
+    document.getElementById("william").style.opacity = "1.0";
   }
 
   if (sat2To6()) {
     document.getElementById("jacob").style.opacity = "1.0";
-    document.getElementById("christina").style.opacity = "1.0";
     document.getElementById("vanessa").style.opacity = "1.0";
     document.getElementById("scott").style.opacity = "1.0";
-    document.getElementById("michael").style.opacity = "1.0";
-    document.getElementById("ryan").style.opacity = "1.0";
-    document.getElementById("guy").style.opacity = "1.0";
-    document.getElementById("ilya").style.opacity = "1.0";
+    document.getElementById("peter-somers").style.opacity = "1.0";
+    document.getElementById("patrick").style.opacity = "1.0";
     document.getElementById("ean").style.opacity = "1.0";
   }
 
   if (sat6To9()) {
     document.getElementById("jacob").style.opacity = "1.0";
     document.getElementById("roderic").style.opacity = "1.0";
-    document.getElementById("scott").style.opacity = "1.0";
     document.getElementById("michael").style.opacity = "1.0";
-    document.getElementById("guy").style.opacity = "1.0";
     document.getElementById("ilya").style.opacity = "1.0";
+    document.getElementById("peter-somers").style.opacity = "1.0";
+    document.getElementById("aj").style.opacity = "1.0";
+    document.getElementById("patrick").style.opacity = "1.0";
   }
 
   if (sat9ToMidnight()) {
     document.getElementById("michael").style.opacity = "1.0";
     document.getElementById("guy").style.opacity = "1.0";
-    document.getElementById("ilya").style.opacity = "1.0";
+    document.getElementById("aj").style.opacity = "1.0";
     document.getElementById("robby").style.opacity = "1.0";
+    document.getElementById("proneel").style.opacity = "1.0";
   }
 
   if (sun8To10()) {
     document.getElementById("roderic").style.opacity = "1.0";
     document.getElementById("bea").style.opacity = "1.0";
-    document.getElementById("michael").style.opacity = "1.0";
     document.getElementById("alec").style.opacity = "1.0";
-    document.getElementById("guy").style.opacity = "1.0";
-    document.getElementById("ilya").style.opacity = "1.0";
+    document.getElementById("aaron").style.opacity = "1.0";
   }
 }
