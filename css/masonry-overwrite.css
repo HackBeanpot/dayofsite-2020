@@ -5,10 +5,10 @@
 }
 
 .faq-container h5:before {
-  content: '';
+  content: "";
   height: 35px;
   width: 35px;
-  background: url(http://live.hackbeanpot.com/svg/leaf-node.svg);
+  background: url("../svg/leaf-node.svg");
   background-size: contain;
   background-repeat: no-repeat;
   left: 10px;

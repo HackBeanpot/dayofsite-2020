@@ -1,148 +1,238 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HBP FAQs</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title>HBP FAQs</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.png" type="image/png" />
 
-  <link rel="icon" href="favicon.png" type="image/png">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/masonry-overwrite.css" />
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/masonry-overwrite.css">
-  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-</head>
+  <body>
+    <img src="svg/leaf-pattern1.svg" class="pattern-svg" />
+    <div class="big-container container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="img/logo-notext.png"
+            alt="HBP Logo"
+            height="48px"
+            width="48px"
+          />
+        </a>
 
-<body>
-  <img src="svg/leaf-pattern1.svg" class="pattern-svg">
-  <div class="big-container container-fluid">
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html">
-        <img src="img/logo-notext.png" alt="HBP Logo" height="48px" width="48px">
-      </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#nav-content"
+          aria-controls="nav-content"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+          id="nav-toggle"
+        >
+          <span class="navbar-toggler-icon fas fa-bars fa-1x"></span>
+        </button>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <!-- Other livesite page links -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="schedule.html">Schedule</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="challenges.html">Challenges</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="maps.html">Maps</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mentors.html">Mentors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FAQs</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="nav-content">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="challenges.html">Challenges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="maps.html">Maps</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mentors.html">Mentors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQs</a>
+            </li>
+          </ul>
 
-        <!-- Social media links -->
-        <ul class="navbar-nav mr-0">
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.facebook.com/hackbeanpot/" target="_blank">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://twitter.com/HackBeanpot/" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.instagram.com/hackbeanpot/" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+          <!-- Social media links -->
+          <ul class="social-media navbar-nav mr-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.facebook.com/hackbeanpot/"
+                target="_blank"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://twitter.com/HackBeanpot/"
+                target="_blank"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/hackbeanpot/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-    <div class="container mb-5">
-      <h1>FAQs</h1>
-      <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 500 }'>
-        <div class="grid-item faq-container">
+      <div class="container mb-5">
+        <h1>FAQs</h1>
+        <div
+          class="grid"
+          data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 500 }'
+        >
+          <div class="grid-item faq-container">
             <h5>How can I find and join a team?</h5>
             <p>
-              We’ll be holding a team formation activity at the beginning of the hackathon on Friday, right after the opening ceremony where you can meet potential teammates. After that, you are still welcome to join or leave a team at any time.
+              We’ll be holding a team formation activity at the beginning of the
+              hackathon on Friday, right after the opening ceremony where you
+              can meet potential teammates. After that, you are still welcome to
+              join or leave a team at any time.
             </p>
           </div>
-        <div class="grid-item faq-container">
-          <h5>I’m stuck- how can I get help with my project?</h5>
-          <p>You can see which mentors are currently available <a href="https://live.hackbeanpot.com/mentors">here</a>, and reach out to one on Slack via the #mentor-help channel! If you need some inspiration, check out our <a href="https://projects.hackbeanpot.com/">past projects</a>!</p>
-        </div>
-        <div class="grid-item faq-container">
-          <h5>I have a food allergy. What should I do?</h5>
-          <p>
-            If you made note of your dietary restrictions on the confirmation page of the
-            application portal, we’ll be sure to accommodate your needs! All food served
-            will be labeled with allergen information, but if you have any questions ask an organizer.
-          </p>
-        </div>
-        <div class="grid-item faq-container">
-          <h5>How do I contact a HackBeanpot organizer?</h5>
-          <p>
-            Catch one of us walking around - we’re wearing the navy shirts! Be sure you’ve
-            joined our <a href="http://tiny.cc/HBP20">Slack workspace</a>. We’ll be using it to make important announcements throughout the event.
-          </p>
-        </div>
-        <div class="grid-item faq-container">
-          <h5>Why should I go to a workshop/talk?</h5>
-          <p>
-            Some of the best parts of a hackathon is how much you’re able to learn and new people you’ll get to meet and connections you can make. Attending a workshop is a great way to do both those things, plus you’ll get a chance to take a step back from your project and breathe a little. (And you’ll get raffle tickets for attending too.) Tired of coding and tech? We also have non-technical activities planned!
-          </p>
-        </div>
-        <div class="grid-item faq-container">
-          <h5>My brain is fried. What can I do to relax a bit?</h5>
-          <p>
-            Attend a talk or activity! Go to a talk or sponsored event! Grab a snack and hydrate with your reusable bottle! The options are endless.
-          </p>
-        </div>
-        <div class="grid-item faq-container">
-          <h5>Can I leave and come back?</h5>
-          <p>
-            Yes! We encourage you to get some sleep at home and come back refreshed.
-          </p>
-        </div>
-        <div class="grid-item faq-container">
-          <h5>Got any tips for presenting and talking to judges?</h5>
-          <p>
-            HackBeanpot is all about learning! We want to hear about your process - the
-            successes as well as the challenges you’ve faced along the way. What features
-            are you most proud of? What updates or additions would you make in the future?
-            Did you have to step out of your comfort zone or try something new? <a href="http://tiny.cc/HBPresources">Read more</a>
-          </p>
-        </div>
-        <div class="grid-item faq-container">
-          <h5>What should I do if my project isn't done?</h5>
-          <p>
-            It’s totally okay if your project isn’t complete! After all, you only had a
-            day and a half. You should still submit your project -- judges will take into
-            account your process. You can demo as much of it as you have and talk about
-            what you would add in the future too.
-          </p>
-        </div>
-        <div class="grid-item faq-container">
-          <h5>Where can I sleep?</h5>
-          <p>
-            We recommend that you get some sleep at home, but you’ll be able to rest in the any of the areas that are open to hacking on the map <a href="https://live.hackbeanpot.com/maps.html">map</a>. Remember to bring your own pillow and blanket.
-          </p>
-        </div>
-        <div class="grid-item faq-container">
-          <h5>How do I submit a project?</h5>
-          <p>Please submit your project on <a href="https://hackbeanpot-2020.devpost.com/">Devpost</a>.</p>
+          <div class="grid-item faq-container">
+            <h5>I’m stuck- how can I get help with my project?</h5>
+            <p>
+              You can see which mentors are currently available
+              <a href="https://live.hackbeanpot.com/mentors">here</a>, and reach
+              out to one on Slack via the #mentor-help channel! If you need some
+              inspiration, check out our
+              <a
+                href="https://projects.hackbeanpot.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >past projects</a
+              >!
+            </p>
+          </div>
+          <div class="grid-item faq-container">
+            <h5>I have a food allergy. What should I do?</h5>
+            <p>
+              If you made note of your dietary restrictions on the confirmation
+              page of the application portal, we’ll be sure to accommodate your
+              needs! All food served will be labeled with allergen information,
+              but if you have any questions ask an organizer.
+            </p>
+          </div>
+          <div class="grid-item faq-container">
+            <h5>How do I contact a HackBeanpot organizer?</h5>
+            <p>
+              Catch one of us walking around - we’re wearing the navy shirts! Be
+              sure you’ve joined our
+              <a
+                href="http://tiny.cc/HBP20"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Slack workspace</a
+              >. We’ll be using it to make important announcements throughout
+              the event.
+            </p>
+          </div>
+          <div class="grid-item faq-container">
+            <h5>Why should I go to a workshop/talk?</h5>
+            <p>
+              Some of the best parts of a hackathon is how much you’re able to
+              learn and new people you’ll get to meet and connections you can
+              make. Attending a workshop is a great way to do both those things,
+              plus you’ll get a chance to take a step back from your project and
+              breathe a little. (And you’ll get raffle tickets for attending
+              too.) Tired of coding and tech? We also have non-technical
+              activities planned!
+            </p>
+          </div>
+          <div class="grid-item faq-container">
+            <h5>My brain is fried. What can I do to relax a bit?</h5>
+            <p>
+              Attend a talk or activity! Go to a talk or sponsored event! Grab a
+              snack and hydrate with your reusable bottle! The options are
+              endless.
+            </p>
+          </div>
+          <div class="grid-item faq-container">
+            <h5>Can I leave and come back?</h5>
+            <p>
+              Yes! We encourage you to get some sleep at home and come back
+              refreshed.
+            </p>
+          </div>
+          <div class="grid-item faq-container">
+            <h5>Got any tips for presenting and talking to judges?</h5>
+            <p>
+              HackBeanpot is all about learning! We want to hear about your
+              process - the successes as well as the challenges you’ve faced
+              along the way. What features are you most proud of? What updates
+              or additions would you make in the future? Did you have to step
+              out of your comfort zone or try something new?
+              <a
+                href="http://tiny.cc/HBPresources"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Read more</a
+              >
+            </p>
+          </div>
+          <div class="grid-item faq-container">
+            <h5>What should I do if my project isn't done?</h5>
+            <p>
+              It’s totally okay if your project isn’t complete! After all, you
+              only had a day and a half. You should still submit your project --
+              judges will take into account your process. You can demo as much
+              of it as you have and talk about what you would add in the future
+              too.
+            </p>
+          </div>
+          <div class="grid-item faq-container">
+            <h5>Where can I sleep?</h5>
+            <p>
+              We recommend that you get some sleep at home, but you’ll be able
+              to rest in the any of the areas that are open to hacking on the
+              <a href="https://live.hackbeanpot.com/maps.html">map</a>. Remember
+              to bring your own pillow and blanket.
+            </p>
+          </div>
+          <div class="grid-item faq-container">
+            <h5>How do I submit a project?</h5>
+            <p>
+              Please submit your project on
+              <a
+                href="https://hackbeanpot-2020.devpost.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Devpost</a
+              >.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
+</html>

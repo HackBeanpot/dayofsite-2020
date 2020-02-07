@@ -1,212 +1,272 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HBP Schedule</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title>HBP Schedule</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.png" type="image/png" />
 
-  <link rel="icon" href="favicon.png" type="image/png">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/schedule.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/schedule.css">
-</head>
+  <body>
+    <img src="svg/leaf-pattern1.svg" class="pattern-svg" />
+    <div class="big-container container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="img/logo-notext.png"
+            alt="HBP Logo"
+            height="48px"
+            width="48px"
+          />
+        </a>
 
-<body>
-  <img src="svg/leaf-pattern1.svg" class="pattern-svg">
-  <div class="big-container container-fluid">
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html">
-        <img src="img/logo-notext.png" alt="HBP Logo" height="48px" width="48px">
-      </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#nav-content"
+          aria-controls="nav-content"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+          id="nav-toggle"
+        >
+          <span class="navbar-toggler-icon fas fa-bars fa-1x"></span>
+        </button>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <!-- Other livesite page links -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Schedule</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="challenges.html">Challenges</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="maps.html">Maps</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mentors.html">Mentors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faqs.html">FAQs</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="nav-content">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="challenges.html">Challenges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="maps.html">Maps</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mentors.html">Mentors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faqs.html">FAQs</a>
+            </li>
+          </ul>
 
-        <!-- Social media links -->
-        <ul class="navbar-nav mr-0">
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.facebook.com/hackbeanpot/" target="_blank">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://twitter.com/HackBeanpot/" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.instagram.com/hackbeanpot/" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container mb-5">
-      <h1>Schedule</h1>
-      <div class="schedule-container">
-        <h1 class="day-header">Friday, February 7th</h1>
-        <div class="container day-content">
-          <div></div> <!-- Fixes weird CSS :first-child fuckery -->
-          <div class="row mb-3">
-            <div class="col-3">7:00 pm</div>
-            <div class="col-9">
-              <div>Check-in + Dinner</div>
-              <div class="event-subtext">Chicken and Rice Guys - sponsored by Kyruus</div>
-              <div class="event-subtext">Sponsor tabling session</div>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">
-              <div class="time-highlight">8:00 pm</div>
-            </div>
-            <div class="col-9">
-              <div>Opening Ceremony</div>
-              <div class="event-subtext">Walk-ins may enter as space permits</div>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">8:30 pm</div>
-            <div class="col-9"><b>Team formation activity</b></div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">9:30 pm</div>
-            <div class="col-9">
-              <div>Workshop: RPA and its Applications</div>
-              <div class="event-subtext">PowerAdvocate Tech Challenge Workshop</div>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">10:00 pm</div>
-            <div class="col-9"><b>Workshop: Intro to Git & GitHub</b></div>
-          </div>
-          <div class="row">
-            <div class="col-3">12:00 am</div>
-            <div class="col-9">
-              <div>Midnight Snack</div>
-              <div class="event-subtext">TeaDo</div>
-            </div>
-          </div>
+          <!-- Social media links -->
+          <ul class="social-media navbar-nav mr-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.facebook.com/hackbeanpot/"
+                target="_blank"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://twitter.com/HackBeanpot/"
+                target="_blank"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/hackbeanpot/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
         </div>
+      </nav>
+      <div class="container mb-5">
+        <h1>Schedule</h1>
+        <div class="schedule-container">
+          <h1 class="day-header">Friday, February 7th</h1>
+          <div class="container day-content">
+            <div></div>
+            <!-- Fixes weird CSS :first-child fuckery -->
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">7:00 pm</div>
+              <div class="col-md-9 col-sm-8">
+                <div>Check-in + Dinner</div>
+                <div class="event-subtext">
+                  Chicken and Rice Guys - sponsored by Kyruus
+                </div>
+                <div class="event-subtext">Sponsor tabling session</div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">
+                <div class="time-highlight">8:00 pm</div>
+              </div>
+              <div class="col-md-9 col-sm-8">
+                <div>Opening Ceremony</div>
+                <div class="event-subtext">
+                  Walk-ins may enter as space permits
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">8:30 pm</div>
+              <div class="col-md-9 col-sm-8">
+                <b>Team formation activity</b>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">9:30 pm</div>
+              <div class="col-md-9 col-sm-8">
+                <div>Workshop: RPA and its Applications</div>
+                <div class="event-subtext">
+                  PowerAdvocate Tech Challenge Workshop
+                </div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">10:00 pm</div>
+              <div class="col-md-9 col-sm-8">
+                <b>Workshop: Intro to Git & GitHub</b>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 col-sm-4">12:00 am</div>
+              <div class="col-md-9 col-sm-8">
+                <div>Midnight Snack</div>
+                <div class="event-subtext">TeaDo</div>
+              </div>
+            </div>
+          </div>
 
+          <h1 class="day-header">Saturday, February 8th</h1>
+          <div class="container day-content">
+            <div class="time-highlight">Hacking all day</div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">1:30 am</div>
+              <div class="col-md-9 col-sm-8"><b>Seed Planting Activity</b></div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">7:00 am</div>
+              <div class="col-md-9 col-sm-8"><b>Seaport Sunrise Walk</b></div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">9:00 am</div>
+              <div class="col-md-9 col-sm-8">
+                <div>Breakfast</div>
+                <div class="event-subtext">Bennet's</div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">10:00 am</div>
+              <div class="col-md-9 col-sm-8">
+                <div>Intro to React Workshop</div>
+                <div class="event-subtext">Kyruus Workshop</div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">12:30 pm</div>
+              <div class="col-md-9 col-sm-8">
+                <div>Lunch</div>
+                <div class="event-subtext">Dig Inn - Sponsored by Khoury</div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">1:30 pm</div>
+              <div class="col-md-9 col-sm-8">
+                <div>Talk: Navigating a Tech Career</div>
+                <div class="event-subtext">Catalant Talk</div>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">7:00 pm</div>
+              <div class="col-md-9 col-sm-8">
+                <div>Dinner</div>
+                <div class="event-subtext">
+                  Bangkok Pinto - Sponsored by Drift
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 col-sm-4">12:00 am</div>
+              <div class="col-md-9 col-sm-8">
+                <div>Midnight Snack & Raffle Drawing</div>
+                <div class="event-subtext">Roxy's Grilled Cheese</div>
+              </div>
+            </div>
+          </div>
 
-        <h1 class="day-header">Saturday, February 8th</h1>
-        <div class="container day-content">
-          <div class="time-highlight">Hacking all day</div>
-          <div class="row mb-3">
-            <div class="col-3">1:30 am</div>
-            <div class="col-9"><b>Seed Planting Activity</b></div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">7:00 am</div>
-            <div class="col-9"><b>Seaport Sunrise Walk</b></div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">9:00 am</div>
-            <div class="col-9">
-              <div>Breakfast</div>
-              <div class="event-subtext">Bennet's</div>
+          <h1 class="day-header">Sunday, February 9th</h1>
+          <div class="container day-content">
+            <div></div>
+            <!-- Fixes CSS :first-child fuckery -->
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">7:00 am</div>
+              <div class="col-md-9 col-sm-8">
+                <div>Breakfast</div>
+                <div class="event-subtext">Cereal Bar</div>
+              </div>
             </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">12:30 pm</div>
-            <div class="col-9">
-              <div>Lunch</div>
-              <div class="event-subtext">Dig Inn - Sponsored by Khoury</div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">
+                <div class="time-highlight">10:00 am</div>
+              </div>
+              <div class="col-md-9 col-sm-8">
+                <b>Project submissions due ⏱️</b>
+              </div>
             </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">1:30 pm</div>
-            <div class="col-9">
-              <div>Talk: Navigating a Tech Career</div>
-              <div class="event-subtext">Catalant Talk</div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">10:30 am</div>
+              <div class="col-md-9 col-sm-8"><b>Judging begins</b></div>
             </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">7:00 pm</div>
-            <div class="col-9">
-              <div>Dinner</div>
-              <div class="event-subtext">Bangkok Pinto - Sponsored by Drift</div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">12:30 pm</div>
+              <div class="col-md-9 col-sm-8">
+                <div>Lunch</div>
+                <div class="event-subtext">Felipe's</div>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-3">12:00 am</div>
-            <div class="col-9">
-              <div>Midnight Snack & Raffle Drawing</div>
-              <div class="event-subtext">Roxy's Grilled Cheese</div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">1:00 pm</div>
+              <div class="col-md-9 col-sm-8"><b>Top 10 Project Demos</b></div>
             </div>
-          </div>
-        </div>
-
-
-        <h1 class="day-header">Sunday, February 9th</h1>
-        <div class="container day-content">
-          <div></div> <!-- Fixes CSS :first-child fuckery -->
-          <div class="row mb-3">
-            <div class="col-3">7:00 am</div>
-            <div class="col-9">
-              <div>Breakfast</div>
-              <div class="event-subtext">Cereal Bar</div>
+            <div class="row mb-3">
+              <div class="col-md-3 col-sm-4">3:00 pm</div>
+              <div class="col-md-9 col-sm-8">
+                <div>Closing Ceremony</div>
+                <div class="event-subtext">
+                  Winners announced and prizes awarded
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">
-              <div class="time-highlight">10:00 am</div>
+            <div class="row">
+              <div class="col-md-3 col-sm-4">3:30 pm</div>
+              <div class="col-md-9 col-sm-8"><b>Sleep!</b></div>
             </div>
-            <div class="col-9"><b>Project submissions due ⏱️</b></div>
-          </div>
-          <div class="row">
-            <div class="col-3">10:30 am</div>
-            <div class="col-9"><b>Judging begins</b></div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">12:30 pm</div>
-            <div class="col-9">
-              <div>Lunch</div>
-              <div class="event-subtext">Felipe's</div>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">1:00 pm</div>
-            <div class="col-9"><b>Top 10 Project Demos</b></div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-3">3:00 pm</div>
-            <div class="col-9">
-              <div>Closing Ceremony</div>
-              <div class="event-subtext">Winners announced and prizes awarded</div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-3">3:30 pm</div>
-            <div class="col-9"><b>Sleep!</b></div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
+  </body>
+</html>
