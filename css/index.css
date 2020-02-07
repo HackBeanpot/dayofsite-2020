@@ -87,6 +87,10 @@ a.index-subtext {
     max-height: 1550px;
   }
 
+  .maps-page {
+    overflow-y: initial;
+  }
+
   .index-subtext {
     font-size: 24px;
   }

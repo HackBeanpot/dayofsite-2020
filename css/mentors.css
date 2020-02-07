@@ -1,35 +1,48 @@
 .mentor-item {
-    width: 500px;
-    margin-bottom: 50px;
+  width: 500px;
+  margin-bottom: 50px;
 }
 
 .mentor-headshot {
-    border-radius: 12px;
-    border-width: 5px;
-    border-style: solid;
-    width: 150px;
-    height: 200px;
+  border-radius: 12px;
+  border-width: 5px;
+  border-style: solid;
+  width: 150px;
+  height: 200px;
 }
 
 .mentor-name-header {
-    font-size: 28px;
-    font-weight: 700;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .mentor-company-header {
-    font-size: 18px;
-    font-weight: 700;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .infobox-header {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 15px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
 
-    text-transform: uppercase;
-    color: rgba(27, 54, 93, 0.5);
-    font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(27, 54, 93, 0.5);
+  font-weight: 700;
 }
 
 .inactive {
-    filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .mentor-big-infobox {
+    max-width: 350px;
+    margin: 0;
+  }
+
+  .mentor-headshot {
+    width: 75px;
+    height: 100px;
+  }
 }

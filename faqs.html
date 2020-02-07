@@ -19,8 +19,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/masonry-overwrite.css" />
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
 
   <body>
@@ -40,15 +43,16 @@
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
+          data-target="#nav-content"
+          aria-controls="nav-content"
+          aria-expanded="true"
           aria-label="Toggle navigation"
+          id="nav-toggle"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon fas fa-bars fa-1x"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <!-- Other livesite page links -->
+
+        <div class="collapse navbar-collapse" id="nav-content">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
               <a class="nav-link" href="schedule.html">Schedule</a>
@@ -68,7 +72,7 @@
           </ul>
 
           <!-- Social media links -->
-          <ul class="navbar-nav mr-0">
+          <ul class="social-media navbar-nav mr-0">
             <li class="nav-item">
               <a
                 class="nav-link"
