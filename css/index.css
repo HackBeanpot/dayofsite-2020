@@ -10,7 +10,6 @@
   max-height: 850px;
 }
 
-
 /* Components */
 .index-header {
   text-transform: uppercase;
@@ -25,9 +24,11 @@
   font-weight: 600;
 }
 
+a.index-subtext {
+  color: #1b365d;
+}
+
 .time-left {
-  font-size: 28px;
-  font-weight: 600;
   margin-top: 25px;
 }
 
@@ -45,27 +46,25 @@
 }
 
 .cta-button {
-  color: #1B365D;
+  color: #1b365d;
   padding: 10px 25px;
-  border: 2px solid #1B365D;
+  border: 2px solid #1b365d;
   display: inline-block;
   border-radius: 30px;
   font-weight: 700;
-
-  transition: all 0.3s ease 0s;
+  transition: background 0.2s ease;
 }
+
 .cta-button:hover {
   color: #edffb5 !important;
-  background: #1B365D;
-  transition: all 0.3s ease 0s;
+  background: #1b365d;
+  text-decoration: none;
 }
 
 .vine-svg {
-  position: relative;
-  background-repeat: no-repeat;
+  position: absolute;
+  top: -20px;
   left: 620px;
-  bottom: 690px;
-  height: 625px;
   z-index: -100;
 }
 
@@ -83,7 +82,7 @@
 }
 
 /* Mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .home-page {
     max-height: 1550px;
   }

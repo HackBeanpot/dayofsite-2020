@@ -1,124 +1,173 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>HackBeanpot 2020</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title>HackBeanpot 2020</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.png" type="image/png" />
 
-  <link rel="icon" href="favicon.png" type="image/png">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/countdown.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/countdown.css">
-  <link rel="stylesheet" href="css/index.css">
-</head>
-
-<body>
-  <div class="home-page">
-  <img src="svg/leaf-pattern1.svg" class="pattern-svg">
-  <div class="big-container container-fluid">
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo-notext.png" alt="HBP Logo" height="48px" width="48px">
-      </a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon fas fa-bars fa-1x"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="nav-content">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="schedule.html">Schedule</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="challenges.html">Challenges</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="maps.html">Maps</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="mentors.html">Mentors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faqs.html">FAQs</a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Social media links -->
-      <ul class="social-media navbar-nav mr-0">
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.facebook.com/hackbeanpot/" target="_blank">
-            <i class="fab fa-facebook"></i>
+  <body>
+    <div class="home-page">
+      <img src="svg/leaf-pattern1.svg" class="pattern-svg" />
+      <div class="big-container container-fluid">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <img
+              src="img/logo-notext.png"
+              alt="HBP Logo"
+              height="48px"
+              width="48px"
+            />
           </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/HackBeanpot/" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.instagram.com/hackbeanpot/" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#nav-content"
+            aria-controls="nav-content"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon fas fa-bars fa-1x"></span>
+          </button>
 
-          <h1 class="time-left">Hacking time remaining:</h1>
-
-          <div id="clock" class="d-flex">
-            <h1 class="hours">99</h1>
-            <h1>:</h1>
-            <h1 class="minutes">99</h1>
-            <h1>:</h1>
-            <h1 class="seconds">99</h1>
+          <div class="collapse navbar-collapse" id="nav-content">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="schedule.html">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="challenges.html">Challenges</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="maps.html">Maps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mentors.html">Mentors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faqs.html">FAQs</a>
+              </li>
+            </ul>
           </div>
 
-          <div class="info-container">
-            <div>
-              <p class="index-header">Wifi</p>
-              <div class="index-subtext">Catalant</div>
+          <!-- Social media links -->
+          <ul class="social-media navbar-nav mr-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.facebook.com/hackbeanpot/"
+                target="_blank"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://twitter.com/HackBeanpot/"
+                target="_blank"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/hackbeanpot/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <h1 class="time-left">Hacking time remaining:</h1>
+
+              <div id="clock" class="d-flex">
+                <h1 class="hours">99</h1>
+                <h1>:</h1>
+                <h1 class="minutes">99</h1>
+                <h1>:</h1>
+                <h1 class="seconds">99</h1>
+              </div>
+
+              <div class="info-container">
+                <div>
+                  <p class="index-header">Wifi</p>
+                  <div class="index-subtext">Catalant</div>
+                </div>
+                <div>
+                  <p class="index-header">Password</p>
+                  <div class="index-subtext">letUsHelp</div>
+                </div>
+                <div>
+                  <p class="index-header">Slack</p>
+                  <a href="https://tiny.cc/HBP20" class="index-subtext"
+                    >slackbeanpot2020.slack.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="button-container">
+                <a
+                  class="cta-button"
+                  href="https://hackbeanpot-2020.devpost.com/"
+                  >Submit a Project</a
+                >
+                <a class="cta-button" href="mentors.html">Contact a Mentor</a>
+                <a class="cta-button" href="http://tiny.cc/HBPresources"
+                  >Beginner Resource Guide</a
+                >
+              </div>
             </div>
-            <div>
-              <p class="index-header">Password</p>
-              <div class="index-subtext">letUsHelp</div>
-            </div>
-            <div>
-              <p class="index-header">Slack</p>
-              <div class="index-subtext">slackbeanpot2020.slack.com</div>
+
+            <div class="col-md-4">
+              <a
+                class="twitter-timeline"
+                data-lang="en"
+                data-height="720"
+                data-link-color="#19CF86"
+                href="https://twitter.com/HackBeanpot?ref_src=twsrc%5Etfw"
+                >Tweets by HackBeanpot</a
+              >
+              <script
+                async
+                src="https://platform.twitter.com/widgets.js"
+                charset="utf-8"
+              ></script>
             </div>
           </div>
-
-          <div class="button-container">
-            <a class="cta-button" href="https://hackbeanpot-2020.devpost.com/">Submit a Project</a>
-            <a class="cta-button" href="mentors.html">Contact a Mentor</a>
-            <a class="cta-button" href="http://tiny.cc/HBPresources">Beginner Resource Guide</a>
-          </div>
-
         </div>
 
-        <div class="col-md-4">
-          <a class="twitter-timeline" data-lang="en" data-height="720" data-link-color="#19CF86" href="https://twitter.com/HackBeanpot?ref_src=twsrc%5Etfw">Tweets by HackBeanpot</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
+        <img src="svg/vine.svg" class="vine-svg" />
       </div>
     </div>
 
-    <img src="svg/vine.svg" class="vine-svg">
-  </div>
-  </div>
-
-  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/countdown.js"></script>
-</body>
-
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/countdown.js"></script>
+  </body>
 </html>
