@@ -70,7 +70,6 @@ window.onload = () => {
     document.getElementById("peter-templin").style.opacity = "1.0";
     document.getElementById("scott").style.opacity = "1.0";
     document.getElementById("ryan").style.opacity = "1.0";
-    document.getElementById("guy").style.opacity = "1.0";
     document.getElementById("david").style.opacity = "1.0";
     document.getElementById("tom").style.opacity = "1.0";
     document.getElementById("john").style.opacity = "1.0";
@@ -102,7 +101,6 @@ window.onload = () => {
     document.getElementById("guy").style.opacity = "1.0";
     document.getElementById("aj").style.opacity = "1.0";
     document.getElementById("robby").style.opacity = "1.0";
-    document.getElementById("proneel").style.opacity = "1.0";
   }
 
   if (sun8To10()) {
